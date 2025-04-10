@@ -17,11 +17,128 @@
   padding-right: 40px;
 }
 
-.menu-hamburguer {
-  cursor: pointer;
-  width: 50px;
+/* Container do menu hamburguer */
+.hamburger-container {
+  position: relative;
 }
 
+/* Botão do menu hamburguer */
+.hamburger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+/* Estilo das linhas do ícone */
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Transformação em "X" quando aberto */
+.bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Menu dropdown */
+.menu-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: #002f2a;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 9998;
+}
+
+.menu-content.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Botão de fechar (X) */
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  margin-top: 20px;
+
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.close-bar {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  top: 50%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.close-bar:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.close-bar:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+/* Lista do menu */
+.menu-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 150px;
+}
+
+.menu-content li {
+  margin: 35px 20px;
+}
+
+.menu-content a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu-content a:hover {
+  color: #ccc;
+}
+
+/* Logo no centro */
 .logo img {
   width: 150px;
+}
+
+/* Contato à direita */
+.contact-container {
+  text-align: right;
+}
+
+.contact-text {
+  color: #4a4e5c;
+  font-size: 20px;
 }
