@@ -1,15 +1,16 @@
-import React from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
+import "../styles/Header.css";
 
-export default function Navbar() {
+export default function Header() {
   return (
-    <nav className="navbar bg-blue-500">
-      <div className="logo">
-        <img src="/images/logo.png" alt="logo" />
+    <nav className="header">
+      <div className="menu-hamburguer">
+        <RxHamburgerMenu />
       </div>
-      <div className="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Serviços</a>
-        <a href="#">Depoimentos</a>
+      <div className="logo">
+        <img src="src/assets/logo.png" alt="logo" />
+      </div>
+      <div className="header-links">
         <a href="#">Contato</a>
       </div>
     </nav>
