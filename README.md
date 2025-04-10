@@ -1,12 +1,29 @@
-# React + Vite
+# Projeto DP Inc - Clone em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um clone da página institucional da empresa DP Inc, originalmente desenvolvida em WordPress utilizando o Bricks Builder.
 
-Currently, two official plugins are available:
+O objetivo deste repositório é replicar o layout e as funcionalidades do site original, mas desta vez utilizando React, buscando praticar conceitos de componentização, performance, boas práticas de desenvolvimento e também explorar mais controle no código.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Site original
 
-## Expanding the ESLint configuration
+O site original desenvolvido em WordPress com Bricks Builder pode ser acessado através do link:  
+https://sites.jeamarketing.com.br/new-dp/
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias utilizadas
+
+- React
+- Vite
+- CSS Modules / Styled Components
+
+## Objetivo do projeto
+
+Este projeto foi criado com fins de estudo e prática, visando:
+
+- Reforçar conhecimentos em React;
+- Replicar layouts reais desenvolvidos em WordPress com Bricks Builder;
+- Criar uma base de componentes reutilizáveis;
+- Trabalhar conceitos de responsividade e performance.
+
+## Status do projeto
+
+Em desenvolvimento 🚧
