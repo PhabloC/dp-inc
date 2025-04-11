@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  width: 100%;
+  background-image: url(../assets/SaoPaulo/banner.png);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.content {
+  width: 400px;
+  margin-left: 280px;
+}
+
+.top-image {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.textSaoPaulo {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.5;
+}
