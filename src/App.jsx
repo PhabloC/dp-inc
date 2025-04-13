@@ -2,6 +2,7 @@ import HeroSection from "./components/HeroSection";
 import Header from "./components/Header";
 import Apresentacao from "./components/Apresentacao";
 import SaoPaulo from "./components/SaoPaulo";
+import SecondSlide from "./components/SecondSlide";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <HeroSection />
       <Apresentacao />
       <SaoPaulo />
+      <SecondSlide />
     </div>
   );
 }

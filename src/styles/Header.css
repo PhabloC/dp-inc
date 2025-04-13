@@ -11,6 +11,8 @@
   z-index: 9999;
   padding-left: 40px;
   padding-right: 40px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Container do menu hamburguer */
@@ -136,5 +138,5 @@
 
 .contact-text {
   color: #4a4e5c;
-  font-size: 20px;
+  font-size: 18px;
 }

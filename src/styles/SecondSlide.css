@@ -1,0 +1,124 @@
+/* SecondSlide.css */
+/* Centraliza o carrossel no meio da tela */
+.carousel {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Estilização do conteúdo do slide */
+.slide-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px; /* Mantido conforme o código original */
+  padding: 20px;
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* Estilização da imagem */
+.image-wrapper {
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+}
+
+.background-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.image-left .background-image {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.image-right .background-image {
+  margin-left: 100px; /* Espaçamento entre as imagens */
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Imagem à esquerda: quadrada à direita da verde */
+.image-left .foreground-image {
+  position: absolute;
+  top: 50px;
+  left: 50px; /* Quadrada deslocada para a direita */
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  z-index: 2;
+  background: #fff;
+}
+
+/* Imagem à direita: quadrada à esquerda da verde */
+.image-right .foreground-image {
+  position: absolute;
+  top: 50px;
+  right: 50px; /* Quadrada deslocada para a esquerda */
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  z-index: 2;
+  background: #fff;
+}
+
+/* Estilização do texto */
+.text-container {
+  flex: 1;
+  width: 450px;
+}
+
+.text-container h2 {
+  margin: 0 0 20px 0;
+  font-size: 48px;
+  color: #c4c4c4;
+  font-weight: 300;
+}
+
+.text-container p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #4a4e5c;
+  font-weight: 300;
+  width: 420px;
+}
+
+/* Estilização das setas do Swiper */
+.carousel .swiper-button-next,
+.carousel .swiper-button-prev {
+  color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel .swiper-button-next:after,
+.carousel .swiper-button-prev:after {
+  font-size: 40px;
+  color: black;
+}
+
+.carousel .swiper-pagination-bullet-active {
+  background: #333;
+  color: black;
+}
