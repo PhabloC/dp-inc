@@ -110,6 +110,7 @@
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 9999;
 }
 
 .carousel .swiper-button-next:after,

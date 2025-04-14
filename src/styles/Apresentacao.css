@@ -31,6 +31,19 @@
   line-height: 1.7;
 }
 
+/* Define a animação de fade-in com movimento para cima */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Começa 20px abaixo */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Termina na posição original */
+  }
+}
+
+/* Aplica a animação na classe btnApresent */
 .btnApresent {
   background-color: transparent;
   padding: 30px 30px;
@@ -40,4 +53,7 @@
   border: 1px solid #b3b3b3;
   margin-top: 20px;
   cursor: pointer;
+
+  /* Adiciona a animação */
+  animation: fadeInUp 0.5s ease-in-out;
 }

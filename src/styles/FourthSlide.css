@@ -1,0 +1,75 @@
+/* src/components/HeroSection.css */
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 60px;
+}
+
+/* Define a animação de fade-in com movimento para cima */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Começa 20px abaixo */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Termina na posição original */
+  }
+}
+
+/* Estiliza o quadrado com texto à direita */
+.square-text {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  background: transparent;
+  z-index: 10;
+  text-align: center;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-right: 30px;
+  font-size: 15px;
+
+  /* Adiciona a animação */
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+/* Estiliza as bolinhas de paginação */
+.swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff;
+  opacity: 1;
+}
+
+/* Estiliza as setas de navegação */
+.swiper-button-next,
+.swiper-button-prev {
+  margin: 0 20px;
+  color: #ffffff !important;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1;
+}
+
+/* Ajusta a posição da seta da direita para evitar sobreposição com o quadrado */
+.swiper-button-next {
+  right: 20px;
+}

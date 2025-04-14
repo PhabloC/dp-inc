@@ -1,0 +1,10 @@
+.fundo-fixo {
+  position: fixed;
+  background-image: url(../assets/FundoFixo/fixo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+}
