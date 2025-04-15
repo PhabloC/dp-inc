@@ -6,6 +6,7 @@ import SecondSlide from "./components/SecondSlide";
 import ThirdSlide from "./components/ThirdSlide";
 import FourthSlide from "./components/FourthSlide";
 import FundoFixo from "./components/FundoFixo";
+import RedeSociais from "./components/RedeSociais";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <ThirdSlide />
       <FourthSlide />
       <FundoFixo />
+      <RedeSociais />
     </div>
   );
 }

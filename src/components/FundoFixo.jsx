@@ -5,7 +5,9 @@ export default function FundoFixo() {
   return (
     <div className="fundo-fixo">
       <div className="fundo-fixo-content">
-        <h1>GRANDES TRAJETÓRIAS MERECEM MORADAS EXTRAORDINÁRIAS</h1>
+        <p className="fundo-fixo-text">
+          GRANDES TRAJETÓRIAS MERECEM MORADAS EXTRAORDINÁRIAS
+        </p>
         <div className="btnContato">
           <p>ENTRE EM CONTATO</p>
         </div>
