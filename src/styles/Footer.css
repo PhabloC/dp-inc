@@ -1,0 +1,121 @@
+.footer {
+  background-color: #002f2a;
+  width: 100%;
+  padding: 20px;
+  gap: 50px;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-bottom: 80px;
+  padding-right: 40px;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.footer-text {
+  color: #ffffff;
+  gap: 40px;
+}
+
+.footer-text p {
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-width: 300;
+  font-size: 16px;
+}
+
+.form-container {
+  gap: 20px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: end;
+}
+
+.form-content input {
+  background-color: transparent;
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  margin-bottom: 5px;
+}
+
+.form-content input::placeholder {
+  color: #ffffff;
+  font-size: 16px;
+}
+.form-content input:focus {
+  outline: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.form-content button {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 80px;
+  border: none; /* Remove todas as bordas */
+  border-bottom: 1px solid #ffffff; /* Adiciona apenas a borda inferior */
+}
+
+.form p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-bottom-text {
+  color: #ffffff;
+}
+
+.description {
+  width: 70%;
+}
+
+.description p {
+  margin-bottom: 20px;
+}
+
+.contact {
+  width: 200px;
+}
+
+.text-direitos {
+  font-size: 16px;
+}
+
+.text-licenca {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.contact p {
+  font-width: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

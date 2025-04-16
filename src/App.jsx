@@ -7,6 +7,8 @@ import ThirdSlide from "./components/ThirdSlide";
 import FourthSlide from "./components/FourthSlide";
 import FundoFixo from "./components/FundoFixo";
 import RedeSociais from "./components/RedeSociais";
+import Footer from "./components/Footer";
+import Noticias from "./components/Noticias";
 
 export default function App() {
   return (
@@ -18,8 +20,10 @@ export default function App() {
       <SecondSlide />
       <ThirdSlide />
       <FourthSlide />
+      <Noticias />
       <FundoFixo />
       <RedeSociais />
+      <Footer />
     </div>
   );
 }

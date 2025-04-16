@@ -19,6 +19,16 @@
   gap: 20px;
 }
 
+.iconesSociais a img {
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: 50px;
+  transition: transform 0.3s ease-in-out; /* Suaviza o efeito de zoom */
+}
+
+.iconesSociais a img:hover {
+  transform: scale(1.2); /* Aumenta o tamanho em 20% ao passar o mouse */
+}
+
 .RedeSociais-content p {
   font-size: 30px;
   color: #c4c4c4;
