@@ -45,6 +45,7 @@ export default function HeroSection() {
       navigation
       loop={true}
       className="hero-swiper"
+      id="home"
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>

@@ -129,23 +129,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px; /* Altura fixa para o container da logo */
+  height: 40px;
 }
 
 .logo-image {
   position: absolute;
-  width: 150px; /* Logo principal */
+  width: 150px;
   height: auto;
-  transition: opacity 0.5s ease-in-out; /* Transição suave */
+  transition: opacity 0.5s ease-in-out;
   opacity: 1;
 }
 
 .logo-image.logo-alternate {
-  width: 80px; /* Logo alternativa com 80px de largura */
+  width: 80px;
 }
 
 .logo-image.fade {
   opacity: 0;
+}
+
+/* Estilo para o link da logo */
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
 }
 
 /* Contato à direita */

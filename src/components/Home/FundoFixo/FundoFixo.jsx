@@ -8,9 +8,11 @@ export default function FundoFixo() {
         <p className="fundo-fixo-text">
           GRANDES TRAJETÓRIAS MERECEM MORADAS EXTRAORDINÁRIAS
         </p>
-        <div className="btnContato">
-          <p>ENTRE EM CONTATO</p>
-        </div>
+        <a href="#footer">
+          <div className="btnContato">
+            <p>ENTRE EM CONTATO</p>
+          </div>
+        </a>
       </div>
     </div>
   );

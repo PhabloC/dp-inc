@@ -57,7 +57,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#institutional" onClick={toggleMenu}>
+              <a href="#institucional" onClick={toggleMenu}>
                 INSTITUCIONAL
               </a>
             </li>
@@ -67,7 +67,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#news" onClick={toggleMenu}>
+              <a href="#noticias" onClick={toggleMenu}>
                 NOTÍCIAS
               </a>
             </li>
@@ -82,16 +82,20 @@ export default function Header() {
 
       {/* Logo no centro */}
       <div className="logo">
-        <img
-          src={logo}
-          alt="Logo"
-          className={`logo-image ${isScrolled ? "fade" : ""}`}
-        />
-        <img
-          src={logoAlternate}
-          alt="Logo Alternate"
-          className={`logo-image logo-alternate ${isScrolled ? "" : "fade"}`}
-        />
+        <a href="/dp-inc/" className="logo-link">
+          {" "}
+          {/* Adicionado uma classe para estilização */}
+          <img
+            src={logo}
+            alt="Logo"
+            className={`logo-image ${isScrolled ? "fade" : ""}`}
+          />
+          <img
+            src={logoAlternate}
+            alt="Logo Alternate"
+            className={`logo-image logo-alternate ${isScrolled ? "" : "fade"}`}
+          />
+        </a>
       </div>
 
       {/* Contato à direita */}

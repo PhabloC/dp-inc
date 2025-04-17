@@ -7,12 +7,13 @@ export default function Footer() {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-text">
-          <p>HOME</p>
+          <a href="#home" className="footer-text-link">
+            <p>HOME</p>
+          </a>
           <p>INSTITUCIONAL</p>
           <p>CASA SÃO PAULO - ALTO DE PINHEIROS</p>
           <p>CASA SÃO PAULO - JARDINS</p>
           <p>PARTICIPAÇÕES</p>
-          <p>CONTATO</p>
         </div>
         <div className="footer-text">
           <p>POLÍTICA DE PRIVACIDADE</p>
