@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/RedeSociais.css";
-import instagramIcon from "../assets/Social/instagram.png";
-import linkedinIcon from "../assets/Social/linkedin.png";
+import "./RedeSociais.css";
+import instagramIcon from "../../../assets/Social/instagram.png";
+import linkedinIcon from "../../../assets/Social/linkedin.png";
 
 export default function RedeSociais() {
   return (

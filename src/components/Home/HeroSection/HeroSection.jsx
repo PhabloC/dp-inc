@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/HeroSection.css";
+import "./HeroSection.css";
 import { Swiper } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { SwiperSlide } from "swiper/react";
@@ -8,10 +8,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // Imagens (substitua pelos caminhos reais das suas imagens)
-import image1 from "../assets/PrimeiroSlide/image1.png";
-import image2 from "../assets/PrimeiroSlide/image2.jpg";
-import image3 from "../assets/PrimeiroSlide/image3.jpg";
-import image4 from "../assets/PrimeiroSlide/image4.jpg";
+import image1 from "../../../assets/PrimeiroSlide/image1.png";
+import image2 from "../../../assets/PrimeiroSlide/image2.jpg";
+import image3 from "../../../assets/PrimeiroSlide/image3.jpg";
+import image4 from "../../../assets/PrimeiroSlide/image4.jpg";
 
 export default function HeroSection() {
   const slides = [
@@ -31,7 +31,7 @@ export default function HeroSection() {
     {
       image: image4,
       description:
-        "O VISÍVEL E O INVISÍVEL SE CONECTAM, HARMONIZANDO A EXISTÊNCIA HUMANA COM AS FORÇAS QUE CONDUZEM O UNIVERSO",
+        "O UNIVERSO RESPONDE COM OPORTUNIDADES QUANDO NOS MOVEMOS COM PROPÓSITO.",
     },
   ];
 

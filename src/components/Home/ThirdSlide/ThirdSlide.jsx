@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/FourthSlide.css";
+import "./ThirdSlide.css";
 import { Swiper } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { SwiperSlide } from "swiper/react";
@@ -8,10 +8,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // Imagens (substitua pelos caminhos reais das suas imagens)
-import image1 from "../assets/QuartoSlide/entrada.png";
-import image2 from "../assets/QuartoSlide/entrada.png";
-import image3 from "../assets/QuartoSlide/entrada.png";
-import image4 from "../assets/QuartoSlide/entrada.png";
+import image1 from "../../../assets/TerceiroSlide/entrada.jpg";
+import image2 from "../../../assets/TerceiroSlide/aerea.jpg";
+import image3 from "../../../assets/TerceiroSlide/frente.jpg";
+import image4 from "../../../assets/TerceiroSlide/fundos.jpg";
 
 export default function HeroSection() {
   const slides = [
@@ -41,7 +41,7 @@ export default function HeroSection() {
             {/* Quadrado com o texto à direita */}
             <div className="square-text">
               <h2>+ CASA SÃO PAULO</h2>
-              <h3>JARDINS</h3>
+              <h3>ALTO DOS PINHEIROS</h3>
             </div>
           </section>
         </SwiperSlide>

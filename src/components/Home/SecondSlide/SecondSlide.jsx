@@ -1,6 +1,6 @@
 // SecondSlide.js
 import React from "react";
-import "../styles/SecondSlide.css";
+import "./SecondSlide.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -8,12 +8,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // Imagens (substitua pelos caminhos reais das suas imagens)
-import image1 from "../assets/SegundoSlide/imagemVisao.png";
-import image2 from "../assets/SegundoSlide/imagemInovacao.png";
-import image3 from "../assets/SegundoSlide/imagemCompromisso.png";
-import image4 from "../assets/SegundoSlide/imagemGovernança.png";
-import image5 from "../assets/SegundoSlide/imagemConexao.png";
-import retanguloVerde from "../assets/SegundoSlide/retanguloVerde.png";
+import image1 from "../../../assets/SegundoSlide/imagemVisao.png";
+import image2 from "../../../assets/SegundoSlide/imagemInovacao.png";
+import image3 from "../../../assets/SegundoSlide/imagemCompromisso.png";
+import image4 from "../../../assets/SegundoSlide/imagemGovernança.png";
+import image5 from "../../../assets/SegundoSlide/imagemConexao.png";
+import retanguloVerde from "../../../assets/SegundoSlide/retanguloVerde.png";
 
 export default function SecondSlide() {
   const carouselData = [

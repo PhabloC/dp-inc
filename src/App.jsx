@@ -1,29 +1,15 @@
-import HeroSection from "./components/HeroSection";
-import Header from "./components/Header";
-import Apresentacao from "./components/Apresentacao";
-import SaoPaulo from "./components/SaoPaulo";
-import SecondSlide from "./components/SecondSlide";
-import ThirdSlide from "./components/ThirdSlide";
-import FourthSlide from "./components/FourthSlide";
-import FundoFixo from "./components/FundoFixo";
-import RedeSociais from "./components/RedeSociais";
-import Footer from "./components/Footer";
-import Noticias from "./components/Noticias";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Footer from "./components/Footer/Footer.jsx";
 
 export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <HeroSection />
-      <Apresentacao />
-      <SaoPaulo />
-      <SecondSlide />
-      <ThirdSlide />
-      <FourthSlide />
-      <Noticias />
-      <FundoFixo />
-      <RedeSociais />
+    <Router basename={import.meta.env.BASE_URL}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../styles/Header.css";
-import logo from "../assets/logo.png";
+import "./Header.css";
+import logo from "../../../assets/logo.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,7 +70,9 @@ export default function Header() {
 
       {/* Contato à direita */}
       <div className="contact-container">
-        <span className="contact-text">Contato</span>
+        <a href="#footer" className="contact-text">
+          Contato
+        </a>
       </div>
     </header>
   );

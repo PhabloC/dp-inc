@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/Footer.css";
-import logoFooter from "../assets/Footer/logo-footer.png";
+import "./Footer.css";
+import logoFooter from "../../assets/Footer/logo-footer.png";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-text">
           <p>HOME</p>

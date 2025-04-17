@@ -4,14 +4,14 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "../styles/Noticias.css";
+import "./Noticias.css";
 
 // Imagens (substitua pelos caminhos reais das suas imagens)
-import image1 from "../assets/Noticias/fachada.jpg";
-import image2 from "../assets/Noticias/materia01.jpg";
-import image3 from "../assets/Noticias/materia02.jpg";
-import image4 from "../assets/Noticias/materia03.jpg";
-import image5 from "../assets/Noticias/materia04.jpg";
+import image1 from "../../../assets/Noticias/fachada.jpg";
+import image2 from "../../../assets/Noticias/materia01.jpg";
+import image3 from "../../../assets/Noticias/materia02.jpg";
+import image4 from "../../../assets/Noticias/materia03.jpg";
+import image5 from "../../../assets/Noticias/materia04.jpg";
 
 const noticias = [
   {

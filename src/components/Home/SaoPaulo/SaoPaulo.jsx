@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/SaoPaulo.css";
-import logo from "../assets/SaoPaulo/logo.png";
+import "./SaoPaulo.css";
+import logo from "../../../assets/SaoPaulo/logo.png";
 
 export default function SaoPaulo() {
   return (

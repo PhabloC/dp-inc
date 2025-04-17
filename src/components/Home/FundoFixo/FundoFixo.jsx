@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/FundoFixo.css";
+import "./FundoFixo.css";
 
 export default function FundoFixo() {
   return (
