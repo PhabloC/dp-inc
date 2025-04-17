@@ -2,15 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 25px;
   background-color: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9999;
-  padding-left: 40px;
-  padding-right: 40px;
   border-bottom: 1px solid #ccc;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -27,14 +25,14 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 4px;
   padding: 5px;
 }
 
 /* Estilo das linhas do ícone */
 .bar {
-  width: 30px;
-  height: 3px;
+  width: 25px;
+  height: 2px;
   background-color: black;
   transition: all 0.3s ease;
 }
@@ -80,7 +78,6 @@
   position: absolute;
   top: 20px;
   margin-top: 20px;
-
   width: 30px;
   height: 30px;
   padding: 0;
@@ -127,8 +124,28 @@
 }
 
 /* Logo no centro */
-.logo img {
-  width: 150px;
+.logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px; /* Altura fixa para o container da logo */
+}
+
+.logo-image {
+  position: absolute;
+  width: 150px; /* Logo principal */
+  height: auto;
+  transition: opacity 0.5s ease-in-out; /* Transição suave */
+  opacity: 1;
+}
+
+.logo-image.logo-alternate {
+  width: 80px; /* Logo alternativa com 80px de largura */
+}
+
+.logo-image.fade {
+  opacity: 0;
 }
 
 /* Contato à direita */
@@ -142,10 +159,10 @@
 }
 
 .contact-container .contact-text {
-  text-decoration: none; /* Remove o sublinhado */
-  color: inherit; /* Mantém a cor do texto */
+  text-decoration: none;
+  color: inherit;
 }
 
 .contact-container .contact-text:hover {
-  text-decoration: none; /* Garante que o sublinhado não apareça ao passar o mouse */
+  text-decoration: none;
 }

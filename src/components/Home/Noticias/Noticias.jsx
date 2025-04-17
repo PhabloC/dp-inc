@@ -48,7 +48,7 @@ const noticias = [
 
 export default function Noticias() {
   return (
-    <div className="noticias-container">
+    <div className="noticias-container" id="noticias">
       <h2 className="noticias-titulo">NOTÍCIAS</h2>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}

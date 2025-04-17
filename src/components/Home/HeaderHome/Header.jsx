@@ -1,13 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
 import logo from "../../../assets/logo.png";
+import logoAlternate from "../../../assets/Footer/logo-footer.png"; // Nova logo
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false); // Estado para controlar a logo
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Troca a logo quando o scroll ultrapassa 500px
+      const scrollPosition = window.scrollY;
+      setIsScrolled(scrollPosition > 500);
+    };
+
+    // Adiciona o ouvinte de scroll
+    window.addEventListener("scroll", handleScroll);
+
+    // Limpa o ouvinte ao desmontar o componente
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header className="header">
@@ -24,7 +42,6 @@ export default function Header() {
           <span className={isOpen ? "bar open" : "bar"}></span>
         </button>
         <div className={`menu-content ${isOpen ? "open" : ""}`}>
-          {/* Botão de fechar (X) */}
           <button
             className="close-button"
             onClick={toggleMenu}
@@ -65,7 +82,16 @@ export default function Header() {
 
       {/* Logo no centro */}
       <div className="logo">
-        <img src={logo} alt="Logo" />
+        <img
+          src={logo}
+          alt="Logo"
+          className={`logo-image ${isScrolled ? "fade" : ""}`}
+        />
+        <img
+          src={logoAlternate}
+          alt="Logo Alternate"
+          className={`logo-image logo-alternate ${isScrolled ? "" : "fade"}`}
+        />
       </div>
 
       {/* Contato à direita */}
