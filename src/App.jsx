@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Participacoes from "./pages/Participacoes";
 import Footer from "./components/Footer/Footer.jsx";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/participacoes" element={<Participacoes />} />
       </Routes>
       <Footer />
     </Router>

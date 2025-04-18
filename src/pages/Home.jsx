@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/Home/HeaderHome/Header";
 import Noticias from "../components/Home/Noticias/Noticias";
 import RedeSociais from "../components/Home/RedeSociais/RedeSociais";
