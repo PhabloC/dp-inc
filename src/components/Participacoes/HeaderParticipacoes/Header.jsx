@@ -57,7 +57,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#sao-paulo" onClick={toggleMenu}>
+              <a href="/dp-inc/casa-sao-paulo" onClick={toggleMenu}>
                 CASA SÃO PAULO
               </a>
             </li>

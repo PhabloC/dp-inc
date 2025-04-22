@@ -52,28 +52,13 @@ export default function Header() {
           </button>
           <ul>
             <li>
-              <a href="#home" onClick={toggleMenu}>
+              <a href="/dp-inc/" onClick={toggleMenu}>
                 HOME
               </a>
             </li>
             <li>
-              <a href="#institucional" onClick={toggleMenu}>
-                INSTITUCIONAL
-              </a>
-            </li>
-            <li>
-              <a href="/dp-inc/casa-sao-paulo" onClick={toggleMenu}>
-                EMPREENDIMENTOS
-              </a>
-            </li>
-            <li>
-              <a href="#noticias" onClick={toggleMenu}>
-                NOTÍCIAS
-              </a>
-            </li>
-            <li>
-              <a href="/dp-inc/participacoes" onClick={toggleMenu}>
-                PARTICIPAÇÕES
+              <a href="#sao-paulo" onClick={toggleMenu}>
+                CASA SÃO PAULO
               </a>
             </li>
           </ul>

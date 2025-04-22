@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap");
+
+.conteudo-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.conteudo-content {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.conteudo-content.direita {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.conteudo-content .image1 {
+  width: 50%;
+  height: 100%;
+}
+
+.conteudo-content .image2 {
+  width: 600px;
+  height: 100%;
+}
+
+.garagem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.garagem-content {
+  position: relative;
+  width: 90%;
+  height: 100vh;
+  background-image: url("../../../assets/EmpreendimentoSaoPaulo/garagem.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.garagem-texto {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: flex-end;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  padding-right: 40px;
+  gap: 10px;
+}
+
+.garagem-texto p {
+  font-family: "Playfair Display";
+  color: #ffffff;
+  text-align: right;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.garagem-texto h3 {
+  font-family: "Playfair Display";
+  font-width: 500;
+  font-style: italic;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.garagem-texto img {
+  width: 200px;
+  height: 1px;
+}
