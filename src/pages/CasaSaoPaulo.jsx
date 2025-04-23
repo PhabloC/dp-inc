@@ -5,11 +5,11 @@ import Conteudo from "../components/SaoPaulo/Conteudo/Conteudo";
 
 export default function CasaSaoPaulo() {
   return (
-    <div>
+    <>
       <Header />
       <FirstSection />
       <Video />
       <Conteudo />
-    </div>
+    </>
   );
 }

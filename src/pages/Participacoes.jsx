@@ -3,9 +3,9 @@ import FirstSection from "../components/Participacoes/FirstSection/FirstSection"
 
 export default function Participacoes() {
   return (
-    <div>
+    <>
       <Header />
       <FirstSection />
-    </div>
+    </>
   );
 }

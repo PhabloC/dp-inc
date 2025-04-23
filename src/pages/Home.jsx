@@ -11,7 +11,7 @@ import FundoFixo from "../components/Home/FundoFixo/FundoFixo";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Header />
       <HeroSection />
       <Apresentacao />
@@ -22,6 +22,6 @@ export default function Home() {
       <Noticias />
       <FundoFixo />
       <RedeSociais />
-    </div>
+    </>
   );
 }
