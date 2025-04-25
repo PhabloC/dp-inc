@@ -1,0 +1,51 @@
+.tour-container {
+  background-image: url("../../../assets/EmpreendimentoSaoPaulo/borrada.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  position: relative;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-titulo {
+  font-family: "Montserrat";
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.tour-texto {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.tour-texto a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tour-texto p {
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.tour-texto img {
+  width: 40px;
+  height: auto;
+}
