@@ -10,8 +10,8 @@ export default function App() {
     <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/participacoes" element={<Participacoes />} />
-        <Route path="/casa-sao-paulo" element={<CasaSaoPaulo />} />
+        <Route path="dp-inc/participacoes" element={<Participacoes />} />
+        <Route path="dp-inc/casa-sao-paulo" element={<CasaSaoPaulo />} />
       </Routes>
       <Footer />
     </Router>
