@@ -35,7 +35,7 @@ export default function FirstSection() {
       autoplay={{ delay: 5000, disableOnInteraction: false }}
       pagination={{ clickable: true }}
       loop={true}
-      className="hero-swiper"
+      className="sp-swiper"
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>
